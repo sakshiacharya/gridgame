@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-color: #b1c4d5;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,168 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.userinfo {
+  width: 30%;
+  margin: auto;
+  align-items: center;
+  margin-top: 10%;
+  text-align: center ;
+}
+
+.askscreen {
+  padding-top: 10%;
+  width: 20%;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.gameover{
+  width: 40%;
+  margin: auto ;
+  align-items: center;
+  margin-top: 10%;
+  text-align: center ;
+  
+}
+
+.listofsection {
+  display: inline;
+  padding: 20px;
+  margin-top: 100px;
+  
+}
+
+.profile_section {
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.information {
+  display: inline;
+} 
+
+.basicinfo {
+  text-align: center;
+}
+
+.basicinfo .name {
+  font-weight: 600;
+}
+
+.basicinfo p {
+  line-height: 10px;
+}
+
+.profile_home img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+
+.griditem {
+ 
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.actionbuttons {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.actionbuttons button {
+  padding: 16px;
+  margin: 15px;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+.timer  {
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.over-msg{
+  text-align: center;
+  color: red;
+}
+
+.time-taken{
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+
+  margin: auto;
+  justify-content: center;
+
+}
+
+/* .grid-item {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+} */
+
+.grid-row {
+  background-color: yellow;
+  
+}
+
+.game-board {
+  display: grid;
+  /* grid-template-rows: 200px 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px 200px; */
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.box {
+  background: #2264ff;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
+
+.profilephotobtn {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+ border: 0.0625rem solid #ced4da;
+ border-radius: 4px;
+ text-align: left;
+ color: #939393;
+ 
+}
+
+.selectedfile {
+  color:  #939393;
+  
 }
