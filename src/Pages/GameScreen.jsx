@@ -19,7 +19,12 @@ const GameScreen = () => {
   const rowConfig = `repeat(${numRows}, ${numRows > 2 ? '150px' : '200px'})`;
   const colConfig = `repeat(${numCols},  ${numRows > 2 ? '150px' : '200px'})`;
 
-  const userData = useSelector((state) => state.loginReducers)
+
+  
+
+const userData = useSelector((state) => state.loginReducers)
+
+
 
  
 

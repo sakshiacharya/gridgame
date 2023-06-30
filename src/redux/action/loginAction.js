@@ -1,6 +1,8 @@
 export const loginAction = (photo, name, email, phone) => {
     return async (dispatch) => {
 
+      console.log(photo, name, email, phone)
+
 
         localStorage.setItem('photo', photo)
         localStorage.setItem('name', name)
